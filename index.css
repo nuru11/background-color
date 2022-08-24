@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
+:root {
+    --ccolor1: blue;
+    --ccolor2: red;
+}
+
+.parent {
+    position:absolute;
+    width: 100%;
+    height: 100%;
+   background-image: linear-gradient(to right, var(--ccolor1), var(--ccolor2)); 
+   
+}
+
+.h1 {
+    display:flex;
+    justify-content: center;
+
+}
+
+.color2 {
+    position:absolute;
+    right:10px;
+}
+
+.color1 {
+    position:absolute;
+    left:10px;
+}
